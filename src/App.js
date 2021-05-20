@@ -1,14 +1,17 @@
 import Navbar from "./Navbar";
 import Form from "./Form";
+import { ThemeProvider } from "./contexts/ThemeContext";
 import PageContent from "./PageContent";
 
 function App() {
   return (
     <>
-      <PageContent>
-        <Navbar />
-        <Form />
-      </PageContent>
+      <ThemeProvider>
+        <PageContent>
+          <Navbar />
+          <Form />
+        </PageContent>
+      </ThemeProvider>
     </>
   );
 }
