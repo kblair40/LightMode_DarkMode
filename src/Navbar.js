@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { withStyles } from "@material-ui/core";
 import {
   AppBar,
   Toolbar,
@@ -7,6 +6,7 @@ import {
   Typography,
   InputBase,
   Switch,
+  withStyles,
 } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
 import styles from "./styles/NavbarStyles";

@@ -1,7 +1,13 @@
 import Navbar from "./Navbar";
+import Form from "./Form";
 
 function App() {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Form />
+    </>
+  );
 }
 
 export default App;
