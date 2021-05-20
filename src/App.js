@@ -1,11 +1,14 @@
 import Navbar from "./Navbar";
 import Form from "./Form";
+import PageContent from "./PageContent";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Form />
+      <PageContent>
+        <Navbar />
+        <Form />
+      </PageContent>
     </>
   );
 }
