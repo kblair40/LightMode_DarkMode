@@ -6,16 +6,14 @@ import PageContent from "./PageContent";
 
 function App() {
   return (
-    <>
-      <ThemeProvider>
-        <LanguageProvider>
-          <PageContent>
-            <Navbar />
-            <Form />
-          </PageContent>
-        </LanguageProvider>
-      </ThemeProvider>
-    </>
+    <ThemeProvider>
+      <LanguageProvider>
+        <PageContent>
+          <Navbar />
+          <Form />
+        </PageContent>
+      </LanguageProvider>
+    </ThemeProvider>
   );
 }
 
